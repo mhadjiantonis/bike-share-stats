@@ -179,7 +179,7 @@ def user_stats(df):
 
 def raw_data(df):
     """
-    Shows raw data if reuested
+    Shows raw data if reuested, 5 lines at a time
     """
     ind = 0
     show_data = input('Show 5 lines of raw data? Enter yes/no. ')
