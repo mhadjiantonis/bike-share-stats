@@ -23,8 +23,7 @@ def get_filters():
         if city in CITY_DATA.keys():
             print('{} selected.'.format(city.title()))
             break
-        else:
-            print('Invalid city selection! Try again')
+        print('Invalid city selection! Try again')
 
     # Get user input for month (all, january, february, ... , june)
     while True:
@@ -32,8 +31,7 @@ def get_filters():
         if month in MONTHS or month == 'all':
             print('{} selected.'.format(month.title()))
             break
-        else:
-            print('Invalid month selection! Try again')
+        print('Invalid month selection! Try again')
 
     # Get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -41,8 +39,7 @@ def get_filters():
         if day in DAYS or day == 'all':
             print('{} selected.'.format(day.title()))
             break
-        else:
-            print('Invalid day selection! Try again')
+        print('Invalid day selection! Try again')
 
 
     print('-'*40)
